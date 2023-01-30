@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./photo/background.jpg);
+}
+
+.task-list {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#start-message {
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 24px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+}
+
+.showTask {
+    display: none;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 3px 8px;
+    margin: 2px 10px;
+}
+
+.button {
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 15px;
+    background: #b6aeae;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.button:hover {
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 15px;
+    background: #dad2ad;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.task p {
+    margin-left: 4px;
+}
+
+.completed {
+    background-color: #4ebbb1;
+    color: white;
+}
+
+.showCompleted {
+    background-color: #4ebbb1;
+    color: white;
+    display: none;
+}
+
+.completed p {
+    text-decoration: line-through;
+}
+
+.input-panel {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.input-panel button {
+    width: 25%;
+    padding: 9px;
+    border-radius: 15px;
+    background: #b6aeae;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.input-panel button:hover {
+    width: 25%;
+    padding: 9px;
+    border-radius: 15px;
+    background: #dad2ad;
+    border: 1px solid black;
+    transition: 1s;
+}
+
+.input-panel input {
+    height: 23px;
+    padding-left: 4px;
+    width: 68%;
+}
+#show-not-completed-task {
+    width: 200px;
+    padding: 9px;
+    border-radius: 15px;
+    background: #b6aeae;
+    border: 1px solid black;
+    transition: 1s;
+    margin: 10px;
+
+}
+
+#show-not-completed-task:hover {
+    background: #dad2ad;
+    transition: 1s;
+}
+
+#show-completed-task:hover {
+    background: #dad2ad;
+    transition: 1s;
+}
+
+
+#show-completed-task {
+    width: 200px;
+    padding: 9px;
+    border-radius: 15px;
+    background: #b6aeae;
+    border: 1px solid black;
+    transition: 1s;
+    margin: 10px;
+
+}
+
+.show-tasks {
+    display: flex;
+    justify-content: center;
+}
+
+#task-name-input {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: #b6aeae;
+    transition: 1s;
+}
+
+#task-name-input:hover {
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: white;
+    transition: 1s;
+}
+
