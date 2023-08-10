@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+p, h1, h2, h3, h4, button {
+    font-family: 'Merriweather', serif;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(./photo/background.jpg);
@@ -27,7 +31,6 @@ body {
     padding: 5px;
     margin: 10px;
     border-radius: 10px;
-}
 }
 
 .showTask {
@@ -55,6 +58,8 @@ body {
     border: 1px solid black;
     transition: 1s;
 }
+
+
 
 .task p {
     margin-left: 4px;
@@ -146,16 +151,16 @@ body {
 #task-name-input {
     padding: 5px;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
     background: #b6aeae;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #task-name-input:hover {
     padding: 5px;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
     background: white;
-    transition: 1s;
+    transition: 0.5s;
 }
 
