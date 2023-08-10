@@ -93,7 +93,7 @@ body {
     border-radius: 15px;
     background: #b6aeae;
     border: 1px solid black;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .input-panel button:hover {
@@ -102,7 +102,7 @@ body {
     border-radius: 15px;
     background: #dad2ad;
     border: 1px solid black;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .input-panel input {
@@ -116,19 +116,19 @@ body {
     border-radius: 15px;
     background: #b6aeae;
     border: 1px solid black;
-    transition: 1s;
+    transition: 0.5s;
     margin: 10px;
 
 }
 
 #show-not-completed-task:hover {
     background: #dad2ad;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 #show-completed-task:hover {
     background: #dad2ad;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
@@ -138,7 +138,7 @@ body {
     border-radius: 15px;
     background: #b6aeae;
     border: 1px solid black;
-    transition: 1s;
+    transition: 0.5s;
     margin: 10px;
 
 }

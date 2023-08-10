@@ -34,7 +34,7 @@ function addTaskHandler() {
 
         taskNameInput.value = "";
     } else {
-        alert("введите имя задачи");
+        alert("Введите имя задачи");
     }
 }
 
