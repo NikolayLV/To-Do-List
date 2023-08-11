@@ -100,7 +100,7 @@ body {
     width: 25%;
     padding: 9px;
     border-radius: 15px;
-    background: #dad2ad;
+    background: #ffffff;
     border: 1px solid black;
     transition: 0.5s;
 }
@@ -122,12 +122,12 @@ body {
 }
 
 #show-not-completed-task:hover {
-    background: #dad2ad;
+    background: #ffffff;
     transition: 0.5s;
 }
 
 #show-completed-task:hover {
-    background: #dad2ad;
+    background: #ffffff;
     transition: 0.5s;
 }
 
